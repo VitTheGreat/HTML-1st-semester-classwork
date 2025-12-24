@@ -1,0 +1,60 @@
+body{
+    font-family: Arial;
+    font-size:24;
+    margin: 20px;
+}
+.box{
+    margin: 15px; 
+    height: 600px;
+    width: 1425px;
+    box-shadow: -15px 0 15px -15px black;
+    padding: 24px;
+}
+.h{
+    font-family: 'Century Gothic';
+    font-size: 72;
+    margin-bottom: 30px;
+}
+.tegi1{
+    display: flex;
+    justify-content: space-between;
+}
+.tegi1 div{
+    display: flex;
+}
+.tegi1 div div{
+    margin: 6px 60px 12px 0;
+}
+.tegi1 div div img{
+    margin: 0px 6px 0px 6px;
+}
+.tegi1 div div b{
+    margin: 0px 6px 0px 6px;
+}
+.tegi2 {
+    display: flex;
+    margin: 6px 0 12px 0;
+}
+.tegi2 div{
+    margin: 0 18px 0 0;
+    padding: 6px;
+    color: white;
+    background-color: gray;
+}
+.tegi2 div:hover{
+    background-color: black;
+}
+.imgnt{
+    height: 330px;
+}
+.imgnt img{
+    display: float;
+    float: left;
+    width: 600px;
+    margin-right: 30px;
+}
+.next{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
